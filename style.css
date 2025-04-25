@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #111, #333);
+    font-family: 'Monoton', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .theater {
+    text-align: center;
+    border: 10px solid gold;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 60px red;
+    background-color: #000;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    color: gold;
+    margin-bottom: 20px;
+  }
+  
+  video {
+    width: 80%;
+    max-width: 800px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px cyan;
+  }
+  
+  .controls {
+    margin-top: 15px;
+  }
+  
+  button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    box-shadow: 0 0 10px yellow;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: gold;
+    color: black;
+  }
